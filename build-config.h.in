@@ -1,0 +1,53 @@
+#ifndef LM_EM919X_CONFIG_H
+#define LM_EM919X_CONFIG_H
+
+/*****************************************************************************
+ * Project metadata
+ **/
+// Name
+#mesondefine LM_EM919X_PACKAGE_NAME
+
+// Version
+#mesondefine LM_EM919X_PACKAGE_MAJOR
+#mesondefine LM_EM919X_PACKAGE_MINOR
+#mesondefine LM_EM919X_PACKAGE_PATCH
+#mesondefine LM_EM919X_PACKAGE_VERSION
+#mesondefine LM_EM919X_ABI_VERSION
+#mesondefine LM_EM919X_LIB_VERSION
+
+// URL
+#mesondefine LM_EM919X_PACKAGE_URL
+
+
+/*****************************************************************************
+ * Options
+ **/
+
+/*****************************************************************************
+ * Headers
+ **/
+
+/*****************************************************************************
+ * Libraries
+ **/
+#mesondefine LM_EM919X_HAVE_LIBNL
+
+/*****************************************************************************
+ * Symbols
+ **/
+
+
+/*****************************************************************************
+ * Platform checks
+ **/
+
+/*****************************************************************************
+ * User defined build options
+ **/
+#mesondefine LM_EM919X_IO_EVENT_TIMEOUT_MSEC
+#mesondefine LM_EM919X_RPC_BUFFER_SIZE
+#mesondefine LM_EM919X_RPC_CONNECTION_TIMEOUT_MSEC
+#mesondefine LM_EM919X_RPC_STARTUP_ITERATIONS
+#mesondefine LM_EM919X_STATE_UPDATE_INTERVAL_MSEC
+
+#endif // guard

@@ -1,0 +1,4 @@
+option('linkmanager_prefix', type: 'string',
+  description: 'Prefix path for the linkmanager installation',
+  value: '/opt/local/lib',
+)

@@ -1,0 +1,68 @@
+{
+    "EM919x Sierra Wireless LTE Module":
+    {
+        "modulePath": "/dev/cdc-wdm0",
+        "interfaceName": "wwan0",
+        "links" : 
+        {
+            "slot-01": 
+            { 
+                "interfaceName": "wwan0",
+                "sessionId": 0,
+                "userName": "ozren",
+                "password": "",
+                "accessString": "internet.ht.hr",
+                "MbimCompression": 0,
+                "MbimAuthProtocol": 0,
+                "MbimContextIpType": 0,
+                "vlanName": "vlan.0",
+                "vlanId": 4094,
+                "simPin": "8296",
+                "route": 
+                {
+                    "1":
+                    {
+                        "routeDst": "0.0.0.0",
+                        "routeDstPrefixLength": 0
+                    }
+                },
+                "ping":
+                {
+                    "1":
+                    {
+                        "pingDst": "8.8.8.8"
+                    }
+                }
+            },
+            "slot-02": 
+            {
+                "interfaceName": "wwan0",
+                "sessionId": 0,
+                "userName": "ozren",
+                "password": "",
+                "accessString": "internet.ht.hr",
+                "MbimCompression": 0,
+                "MbimAuthProtocol": 0,
+                "MbimContextIpType": 0,
+                "vlanName": "vlan.0",
+                "vlanId": 4094,
+                "simPin": "8296",
+                "route": 
+                {
+                    "1":
+                    {
+                        "routeDst": "0.0.0.0",
+                        "routeDstPrefixLength": 0
+                    }
+                },
+                "ping":
+                {
+                    "1":
+                    {
+                        "pingDst": "8.8.8.8"
+                    }
+                }
+            }
+        }
+    }
+}
